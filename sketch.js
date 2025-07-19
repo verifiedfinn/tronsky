@@ -19,10 +19,9 @@ function setup() {
   noStroke();
   textFont('Courier New'); // More binary-looking
 
-  skyTop = color(0, 0, 10);
-  skyBottom = color(10, 30, 50);
+bgBuffer = createGraphics(windowWidth, windowHeight);
+bgBuffer.background(0); // pure black
 
-  drawGradientToBuffer();
   generateCharGrid();
 }
 

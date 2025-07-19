@@ -1,4 +1,4 @@
-const cloudPixelScale = 8;
+const cloudPixelScale = 6;
 const cloudCutOff = 0.5;
 
 const panSpeed = 8;
